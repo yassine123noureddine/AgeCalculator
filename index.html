@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Age calculator app</title>
+
+
+</head>
+<body>
+
+<div class="calcilator">
+  <form action="">
+   
+<div class="mamahom">
+  <div class="day" id="libleday">
+    <label for="">Day</label><br>
+    <input type="text" name="day" placeholder="DD" id="day">
+    <p class="p_prthody " id="p_errorday"></p>
+  </div>   
+   
+  <div class="mounth">
+    <label for="" id="libleday">Month</label><br>
+    <input type="text" name="mounth" placeholder="MM" id="mounth">  
+    <p class="p_prthody " id="p_errormounth"></p>
+  
+  </div>   
+  <div class="years">
+    <label for="" id="libleday">Year</label><br>
+    <input type="text" name="years2" placeholder="YYYY" id="year">
+    <p class="p_prthody " id="p_erroryear"></p>
+
+  </div>
+</div>
+
+    <div class="hrAndbutton">
+      <div><hr></div>
+      <button onclick="validateForm(event)"><i class="fa-solid fa-arrow-down-long"></i></button>
+    </div>
+  </form>
+
+  <div class="articl">
+    <p><span id="spanyears">--</span>years</p>
+    <p><span id="spanmonths">--</span>months</p>
+    <p><span id="spandays">--</span>days</p>
+  </div>
+
+</div>
+
+
+
+
+  <script src="js.js" defer></script>
+
+</body>
+</html>
